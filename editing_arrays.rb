@@ -10,9 +10,9 @@ def change_rainbow_colors
 end
 
 def add_colors
-  rainbow_colors >> "green"
+  rainbow_colors << "green"
   puts rainbow_colors
-  rainbow_colors >> "blue"
+  rainbow_colors << "blue"
   puts rainbow_colors
 end
 
