@@ -14,7 +14,7 @@ def add_colors
   rainbow_colors = ["yellow","default","light_cyan"]
   rainbow_colors << "green"
   rainbow_colors << "blue"
-  puts rainbow_colors
+  return rainbow_colors
 end
 
 
